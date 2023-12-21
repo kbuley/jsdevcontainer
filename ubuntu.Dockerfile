@@ -1,4 +1,4 @@
-ARG BASEDEV_VERSION=v0.20.9
+ARG BASEDEV_VERSION=v0.20.11
 
 FROM kbuley/basedevcontainer:${BASEDEV_VERSION}-ubuntu
 ARG CREATED
@@ -10,11 +10,11 @@ LABEL \
   org.opencontainers.image.created=$CREATED \
   org.opencontainers.image.version=$VERSION \
   org.opencontainers.image.revision=$COMMIT \
-  org.opencontainers.image.url="https://github.com/kbuley/reactdevcontainer" \
-  org.opencontainers.image.documentation="https://github.com/kbuley/reactdevcontainer" \
-  org.opencontainers.image.source="https://github.com/kbuley/reactdevcontainer" \
-  org.opencontainers.image.title="React Dev container Ubuntu" \
-  org.opencontainers.image.description="React TS development container for Visual Studio Code Remote Containers development"
+  org.opencontainers.image.url="https://github.com/kbuley/jsdevcontainer" \
+  org.opencontainers.image.documentation="https://github.com/kbuley/jsdevcontainer" \
+  org.opencontainers.image.source="https://github.com/kbuley/jsdevcontainer" \
+  org.opencontainers.image.title="JS Dev container Ubuntu" \
+  org.opencontainers.image.description="JS development container for Visual Studio Code Remote Containers development"
 
 USER root
 VOLUME [ "/workspace/node_modules" ]
