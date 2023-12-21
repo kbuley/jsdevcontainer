@@ -1,4 +1,5 @@
 name: Ubuntu
+
 on:
   push:
     paths:
@@ -77,6 +78,8 @@ jobs:
             COMMIT=${{ steps.vars.outputs.commit }}
             VERSION=${{ steps.vars.outputs.version }}
           tags: |
-            kbuley/reactdevcontainer:${{ steps.vars.outputs.version }}
-            quay.io/kbuley/reactdevcontainer:${{ steps.vars.outputs.version }}
+            kbuley/jsdevcontainer:${{ steps.vars.outputs.version }}
+            kbuley/jsdevcontainer:${{ steps.vars.outputs.ubuntu_version }}
+            quay.io/kbuley/jsdevcontainer:${{ steps.vars.outputs.version }}
+            quay.io/kbuley/jsdevcontainer:${{ steps.vars.outputs.ubuntu_version }}
           push: true

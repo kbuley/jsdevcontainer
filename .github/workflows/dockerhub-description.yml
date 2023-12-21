@@ -16,4 +16,4 @@ jobs:
         env:
           DOCKERHUB_USERNAME: kbuley
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
-          DOCKERHUB_REPOSITORY: kbuley/reactdevcontainer
+          DOCKERHUB_REPOSITORY: kbuley/jsdevcontainer

@@ -1,26 +1,26 @@
-# React Dev Container
+# JS Dev Container
 
-Ultimate React development container for Visual Studio Code
+Ultimate JS development container for Visual Studio Code
 
-[![CI build](https://github.com/kbuley/reactdevcontainer/actions/workflows/ci.yml/badge.svg)](https://github.com/kbuley/reactdevcontainer/actions/workflows/ci.yml)
+[![CI build](https://github.com/kbuley/jsdevcontainer/actions/workflows/ci.yml/badge.svg)](https://github.com/kbuley/jsdevcontainer/actions/workflows/ci.yml)
 
-[![dockeri.co](https://dockeri.co/image/kbuley/reactdevcontainer)](https://hub.docker.com/r/kbuley/reactdevcontainer)
+[![dockeri.co](https://dockeri.co/image/kbuley/jsdevcontainer)](https://hub.docker.com/r/kbuley/jsdevcontainer)
 
-![Last Docker tag](https://img.shields.io/docker/v/kbuley/reactdevcontainer?sort=semver&label=Last%20Docker%20tag)
-[![Latest size](https://img.shields.io/docker/image-size/kbuley/reactdevcontainer/latest?label=Latest%20image)](https://hub.docker.com/r/kbuley/reactdevcontainer/tags)
+![Last Docker tag](https://img.shields.io/docker/v/kbuley/jsdevcontainer?sort=semver&label=Last%20Docker%20tag)
+[![Latest size](https://img.shields.io/docker/image-size/kbuley/jsdevcontainer/latest?label=Latest%20image)](https://hub.docker.com/r/kbuley/jsdevcontainer/tags)
 
-![Last release](https://img.shields.io/github/release/kbuley/reactdevcontainer?label=Last%20release)
-[![Last release size](https://img.shields.io/docker/image-size/kbuley/reactdevcontainer?sort=semver&label=Last%20released%20image)](https://hub.docker.com/r/kbuley/reactdevcontainer/tags?page=1&ordering=last_updated)
-![GitHub last release date](https://img.shields.io/github/release-date/kbuley/reactdevcontainer?label=Last%20release%20date)
-![Commits since release](https://img.shields.io/github/commits-since/kbuley/reactdevcontainer/latest?sort=semver)
+![Last release](https://img.shields.io/github/release/kbuley/jsdevcontainer?label=Last%20release)
+[![Last release size](https://img.shields.io/docker/image-size/kbuley/jsdevcontainer?sort=semver&label=Last%20released%20image)](https://hub.docker.com/r/kbuley/jsdevcontainer/tags?page=1&ordering=last_updated)
+![GitHub last release date](https://img.shields.io/github/release-date/kbuley/jsdevcontainer?label=Last%20release%20date)
+![Commits since release](https://img.shields.io/github/commits-since/kbuley/jsdevcontainer/latest?sort=semver)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/kbuley/reactdevcontainer.svg)](https://github.com/kbuley/reactdevcontainer/commits/main)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kbuley/reactdevcontainer.svg)](https://github.com/kbuley/reactdevcontainer/graphs/contributors)
-[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/kbuley/reactdevcontainer.svg)](https://github.com/kbuley/reactdevcontainer/pulls?q=is%3Apr+is%3Aclosed)
-[![GitHub issues](https://img.shields.io/github/issues/kbuley/reactdevcontainer.svg)](https://github.com/kbuley/reactdevcontainer/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/kbuley/reactdevcontainer.svg)](https://github.com/kbuley/reactdevcontainer/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub last commit](https://img.shields.io/github/last-commit/kbuley/jsdevcontainer.svg)](https://github.com/kbuley/jsdevcontainer/commits/main)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/kbuley/jsdevcontainer.svg)](https://github.com/kbuley/jsdevcontainer/graphs/contributors)
+[![GitHub closed PRs](https://img.shields.io/github/issues-pr-closed/kbuley/jsdevcontainer.svg)](https://github.com/kbuley/jsdevcontainer/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/kbuley/jsdevcontainer.svg)](https://github.com/kbuley/jsdevcontainer/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/kbuley/jsdevcontainer.svg)](https://github.com/kbuley/jsdevcontainer/issues?q=is%3Aissue+is%3Aclosed)
 
-![Visitors count](https://visitor-badge.laobi.icu/badge?page_id=reactdevcontainer.readme)
+![Visitors count](https://visitor-badge.laobi.icu/badge?page_id=jsdevcontainer.readme)
 
 ## Features
 
@@ -59,7 +59,7 @@ Ultimate React development container for Visual Studio Code
    - With style 💯
 
      ```sh
-     docker run -it --rm -v "/yourrepopath:/repository" kbuley/devtainr:v0.2.0 -dev react -path /repository -name projectname
+     docker run -it --rm -v "/yourrepopath:/repository" kbuley/devtainr:v0.2.0 -dev js -path /repository -name projectname
      ```
 
      Or use the [built binary](https://github.com/kbuley/devtainr#binary)
@@ -82,4 +82,4 @@ See the [.devcontainer/README.md](.devcontainer/README.md) document in your repo
 
 ## License
 
-This repository is under an [MIT license](https://github.com/kbuley/reactdevcontainer/main/LICENSE) unless indicated otherwise.
+This repository is under an [MIT license](https://github.com/kbuley/jsdevcontainer/main/LICENSE) unless indicated otherwise.

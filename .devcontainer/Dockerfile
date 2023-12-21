@@ -1,1 +1,1 @@
-FROM kbuley/reactdevcontainer
+FROM kbuley/jsdevcontainer
