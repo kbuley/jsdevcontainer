@@ -82,4 +82,4 @@ See the [.devcontainer/README.md](.devcontainer/README.md) document in your repo
 
 ## License
 
-This repository is under an [MIT license](https://github.com/kbuley/reactdevcontainer/master/LICENSE) unless indicated otherwise.
+This repository is under an [MIT license](https://github.com/kbuley/reactdevcontainer/main/LICENSE) unless indicated otherwise.
